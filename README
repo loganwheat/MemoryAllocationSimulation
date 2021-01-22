@@ -1,0 +1,23 @@
+/***********************************************************************
+ * File: Memory Allocation Simulation
+ *
+ * Author: Logan Wheat
+ *
+ * Modification History: 10/13/2019 : wrote the code: Logan Wheat
+ *
+ * Procedures:
+ *     main - functions as the driver function to choose what simulation
+ *     to run. A menu is displayed showing possible options, which allows
+ *     the user to insert an integer choosing his/her option. A switch statement
+ *     calls the proper function.
+ *
+ *     fixed - simulates the process of memory allocation using fixed
+ *     partitioning of 8 equal partitions of 8 MB's.
+ *
+ *     fixedUnequal - simulates the process of memory allocation using fixed
+ *     partitioning of 8 unequal partitions of 8, 2, 4, 6, 8, 8, and 12 MB's. 
+ *
+ *     dynamic() - simulates the process of memory allocation using dynamic
+ *     partitioning of 56 MB's.
+ *
+ ***********************************************************************/
